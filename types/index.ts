@@ -69,9 +69,12 @@ export interface Transaction {
 export interface Friend {
   id: string
   userId: string
+  avatar:string
   friendId: string
   fullName: string
+  username: string
   createdAt: string
+  isPremium: string
   friend: User
 }
 
